@@ -80,7 +80,7 @@ export const DELETE = async (request: NextRequest) => {
     );
   }
 
-  const { username, role} = <Payload>payload;
+  const { role} = <Payload>payload;
 
   readDB();
 

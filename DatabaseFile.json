@@ -7,6 +7,10 @@
     {
       "roomId": "HhVrDzdfsW-dS0YGOzrV3",
       "roomName": "261207 Tutorial"
+    },
+    {
+      "roomId": "36LAs8YUCIJ9AKwBTEMmc",
+      "roomName": "Spoil One Piece"
     }
   ],
   "messages": [
@@ -19,6 +23,21 @@
       "roomId": "HhVrDzdfsW-dS0YGOzrV3",
       "messageId": "mBE0AghdK3uwb_yvX9n35",
       "messageText": "Can anyone teach me RESTFul API?"
+    },
+    {
+      "roomId": "okhkUzffzCGMqtfC1uv6x",
+      "messageId": "9ydU4xAUzOKiQVF2MMi2O",
+      "messageText": "สวัสดีจ่ะ"
+    },
+    {
+      "roomId": "okhkUzffzCGMqtfC1uv6x",
+      "messageId": "0nnm1k-bK0oa9TeOeex-y",
+      "messageText": "สวัสดีจ่ะ"
+    },
+    {
+      "roomId": "okhkUzffzCGMqtfC1uv6x",
+      "messageId": "mgBY9YjzY_M0lKekVOGwV",
+      "messageText": "สวัสดีจ่ะ"
     }
   ],
   "users": [
@@ -31,6 +50,11 @@
       "username": "user2",
       "password": "5678",
       "role": "SUPER_ADMIN"
+    },
+    {
+      "username": "user3",
+      "password": "5678",
+      "role": "SUER_ADMIN"
     }
   ]
 }

@@ -27,6 +27,20 @@ export const POST = async (request: NextRequest) => {
     );
   }
 
+  const role = (<Payload>payload).role;
+
+  if(role !== "SUPER_ADMIN"){
+    if(role !== "ADMIN"){
+      return NextResponse.json(
+        {
+          ok: false,
+          message: "Invalid token",
+        },
+        { status: 401 }
+      );
+    }
+  }
+
   const body = await request.json();
 
   const { roomName } = body;
